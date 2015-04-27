@@ -1,0 +1,5 @@
+web:
+ build: .
+ command: ls
+ ports:
+  - "4567:4567"

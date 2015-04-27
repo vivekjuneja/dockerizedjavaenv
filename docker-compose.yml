@@ -1,0 +1,10 @@
+web:
+ build: .
+ ports:
+  - "4567:4567"
+web2:
+ build: ../sparkexample2
+ ports:
+  - "4569:4569"
+ links:
+  - web
