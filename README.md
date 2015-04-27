@@ -1,6 +1,7 @@
 # dockerizedjavaenv
 Dockerized Java Development Environment
 
+Core Ideas
 - Based on SparkJava 
 - Uses Docker Compose
 - Idea to build lightweight Java Restful services
