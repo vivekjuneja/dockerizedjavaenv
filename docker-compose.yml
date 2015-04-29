@@ -1,9 +1,9 @@
 web:
- build: .
+ build: ./restful_service_1
  ports:
   - "4567:4567"
 web2:
- build: ../sparkexample2
+ build: ./restful_service_2
  ports:
   - "4569:4569"
  links:
